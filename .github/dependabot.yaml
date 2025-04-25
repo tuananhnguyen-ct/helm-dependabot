@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "helm"
+    directories:
+      - "/charts/workspace/external-dns"
+    schedule:
+      interval: "daily"
